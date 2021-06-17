@@ -1,0 +1,2 @@
+PS C:\WINDOWS\system32> cd C:\Users\profc\Documents\AnyQuestion\Projetos\SiteAnyQuestion\dashboard 
+streamlit run comusa.py	
