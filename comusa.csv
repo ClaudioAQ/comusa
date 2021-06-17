@@ -1,4 +1,4 @@
-Vencimento;Mês/Ano Referência;Total a Pagar (R$);Leitura Mês;Consumo (m3);Média Mensal (m3);Média Diária (m3);Dias Leitura;Valor Básico (R$);Valor Água (R$);Cor (UC);Turbidez (NTU);Dióxido Cloro (mg/l);Cloro Livre (mg/l);Flúor (mg/l);pH;% Coliformes Totais
+Vencimento;Mes_Ano_Ref;Valor;Leitura_Mes;Consumo;Med_Mensal;Med_Diaria;Dias_Leitura;Valor_Basico;Valor_Agua;Cor (UC);Turbidez (NTU);Dióxido Cloro (mg/l);Cloro Livre (mg/l);Flúor (mg/l);pH;% Coliformes Totais
 20/02/2017;jan/17;75,76;455;12;9;0,41;29;21,28;54,48;2;0,34;0;0,77;0,77;6,95;0,9
 20/03/2017;fev/17;57,6;463;8;9;0,27;29;21,28;36,32;3;0,59;0;0,72;0,77;6,9;4,05
 20/04/2017;mar/17;66,68;473;10;9;0,31;32;21,28;45,4;1;0,28;0;0,89;0,78;7,01;0
