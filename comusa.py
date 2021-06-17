@@ -7,7 +7,7 @@ import streamlit as st
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
 # Importação dos dados file *.csv
-df = pd.read_csv('C:/Users/profc/OneDrive/Documentos/COMUSA.csv', sep=';', encoding='utf8', decimal=',', usecols = [0,1,10,11,13,14,15,16])
+df = pd.read_csv('https://github.com/ClaudioAQ/comusa/blob/master/comusa.csv', sep=';', encoding='utf8', decimal=',', usecols = [0,1,10,11,13,14,15,16])
 
 # Excluir os campos de 'Total a Pagar (R$)' até 'Valor Água (R$)' para anonimizar
 
