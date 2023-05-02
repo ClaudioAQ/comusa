@@ -9,16 +9,6 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 # Importação dos dados file *.csv
 df = pd.read_csv('https://github.com/ClaudioAQ/comusa/blob/master/comusa.csv', sep=';', encoding='utf8', decimal=',', usecols = [0,1,10,11,13,14,15,16])
 
-# Excluir os campos de 'Total a Pagar (R$)' até 'Valor Água (R$)' para anonimizar
-
-# Cálculo da média de todos os indicadores
-cor = df['Cor (UC)'].mean()
-coliformes = df['% Coliformes Totais'].mean()
-turbidez = df['Turbidez (NTU)'].mean()
-cloro_livre = df['Cloro Livre (mg/l)'].mean()
-fluor = df['Flúor (mg/l)'].mean()
-pH = df['pH'].mean()
-
 st.write("""
 ## Projeto de monitoramento da *qualidade da água* fornecida pela **COMUSA** em Novo Hamburgo (RS)
 ### por Claudio Fagundes Pereira, (C) 2021
